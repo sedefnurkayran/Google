@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 100%;
+  padding: 20px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* background-color: aqua; */
+}
+.header_right {
+  float: right;
+}
+.header_item {
+  display: inline;
+}
+
+.header_link {
+  color: black;
+  padding: 0.5rem;
+  opacity: 0.9;
+}
+.header_link:hover {
+  text-decoration: underline;
+}
+
+.header_link-avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+.header_link-avatar:hover {
+  height: 34px;
+  width: 34px;
+}
+.header_link-appicon {
+  opacity: 0.7;
+  vertical-align: middle;
+}
+.header_link-appicon:hover {
+  opacity: 1;
+}
+.main {
+  margin-top: 80px;
+  text-align: center;
+}
+.main_logo {
+  width: 290px;
+  height: 100px;
+}
+.main_search-bar {
+  width: 550px;
+  height: 38px;
+  padding-top: 3px;
+  border-radius: 25px;
+  border: 1px solid #d3d3d3;
+  margin: 20px auto;
+}
+.main_search-bar:hover {
+  box-shadow: 3px 3px 5px 0px lightgrey; /*x y blur spread color1182*/
+}
+.main_search-bar--magnifier {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.main_search-bar--mic {
+  height: 20px;
+  width: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.main_search-bar--lens {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.main_search-bar--input {
+  width: 450px;
+  height: 25px;
+  border: none;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.main_button {
+  height: 36px;
+  padding: 1px 6px;
+  border: none;
+  border-radius: 4px;
+  margin: 20px 3px;
+  background-color: rgb(245, 245, 245);
+  font-size: 15px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.main_button:hover {
+  opacity: 1;
+  border: 1px solid rgb(211, 211, 211);
+}
+.main_language {
+  margin-top: 1.1rem;
+}
+.main_language-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  width: 100%;
+}
+.footer_country {
+  padding-left: 20px;
+  margin: 20px 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+.footer_left {
+  float: left;
+  padding-left: 15px;
+}
+.footer_right {
+  float: right;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.footer_item {
+  display: inline;
+}
+.footer_link {
+  color: black;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+.footer_link:hover {
+  text-decoration: underline;
+}
